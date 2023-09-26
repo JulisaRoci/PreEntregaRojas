@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+    <!-- LINK FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  </head>
+  <body>
+
+    <div class="container" style=" margin-top: 80px;">
+      <!--Color de fondo sugerido por BS: bg-body-tertiary -->
+      <header>
+        <nav class="container navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="fs-3 navbar-brand" href="#">ASISTUR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Destinos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Experiencias</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Acerca</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/blog.html">Blog</a>
+                </li>
+  
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section id="inicio" class="row align-items-center pt-4 pb-4">
+        <div class="col-6 ">
+
+          <div class="col">          
+            <h1 class="lh-1">Descubre una de las maravillas del mundo </h1>
+          </div>
+          <br>
+          <div class="col">
+            <p>Viaje a través del tiempo explore las antiguas tradiciones y maravillas de Perú</p>
+          </div>
+          <br>
+          <div>
+            <a class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+
+        <div class="col-6">
+
+          <img class="img-fluid rounded" src="./images/img-inicio-header.jpeg" alt="">
+        </div>
+      </section>
+
+      <hr>
+      
+      <section id="descubre" class="mt-5 pb-5">
+
+        <h2 class="fs-1 text-center pt-4 pb-5">Descubre</h2>
+
+        <div class="row">
+
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img class="img-fluid" src="./images/norte-peru.jpeg" alt="">
+              </div>
+              <div class="col-8">
+                <p>Norte</p>
+                <p>Mezcla encantadora de playas.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img class="img-fluid" src="./images/centro.jpeg" alt="">
+              </div>
+              <div class="col-8">
+                <p>Centro</p>
+                <p>El centro del Perú: historia, montañas y vida urbana.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img class="img-fluid" src="./images/sur-ayacucho.jpeg" alt="">
+              </div>
+              <div class="col-8">
+                <p>Sur</p>
+                <p>El sur del Perú: hogar de Machu Picchu.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section id="suscripcion" class="pt-5 pb-5 mt-5 mb-5">
+
+        <div class="text-center mb-5">
+          <h2 class="fs-1">¡Suscríbete!</h2>
+          <p>Suscríbete a nuestros boletines y mantente actualizado</p>
+        </div>
+        
+
+        <div class="d-flex justify-content-center ">
+          <form class="row align-items-center">
+
+            <div class="col-10">
+              <input type="email" class="border border-0 border-bottom custom-input text-center p-2 rounded" id="correo" placeholder="Escribe tu correo electrónico">
+            </div>
+            
+            <div class="col-2">
+              <button type="submit" class="btn">Suscribirse</button>
+            </div>
+          </form>
+        </div>
+        
+      </section>
+
+      <hr>
+
+      <footer class=" pb-5 mt-5">
+        <div class="row">
+          <div class="col logo">
+            <a href="" class="fs-3 navbar-brand">ASISTUR</a>
+          </div>
+          <div class="col info">
+            <div class="row">
+              <p>Información de contacto</p>
+              <p>Dirección</p>
+              <p>Teléfono</p>
+              <p>Email</p>
+            </div>
+          </div>
+
+          <div class="col enlaces">
+            <div class="row">
+              <p>Nuestros enlaces</p>
+              <p><a class="text-decoration-none" href="">Inicio</a></p>
+              <p><a class="text-decoration-none" href="">Destinos</a></p>
+              <p><a class="text-decoration-none" href="">Experiencia</a></p>
+            </div>
+
+          </div>
+
+          <div class="col privacidad">
+
+            <p>Privacidad</p>
+            <p><a class="text-decoration-none" href="">Términos y condiciones</a></p>
+            <p><a class="text-decoration-none" href="">Acerca de nosotros</a></p>
+
+          </div>
+
+          <div class="col rrss">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
+
+body, nav a, section{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #e3f6f5;
+}
+
+  
+
+/* INICIO */
+#inicio h1, #descubre h2, #suscripcion h2, .texto-card{
+    color: #272343;
+}
+
+#inicio p, #descubre p, #suscripcion p, footer .row p, footer .row p a{
+    color: #2d334a;
+}
+
+
+#inicio a{
+    background-color: #ffd803;
+    border: none;
+    color: #272343;
+}
+
+#inicio a:hover{
+    background-color: #272343;
+    color: #fffffe;
+}
+
+/* DESCUBRE */
+
+.col img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* SUSCRIBETE */
+
+#suscripcion{
+    background-color: #e3f6f5;
+}
+
+form{
+    font-family: 'Poppins', sans-serif;
+}
+
+form .btn, .card .btn{
+    background-color: #ffd803;
+    color: #272343;
+
+}
+
+form .btn:hover, .card .btn:hover{
+    background-color: #272343;
+    color: #fffffe;
+}
+
+input {
+    width: 100%;
+    outline: none;
+}
+::placeholder{
+    color: #272343;
+}
+
+.btn-custom {
+    width: 80%;
+    
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
+
+
+
